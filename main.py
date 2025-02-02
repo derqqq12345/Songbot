@@ -377,5 +377,5 @@ async def 멈춰(interaction: discord.Interaction):
         await interaction.response.send_message("현재 재생 중인 음악이 없습니다.")
 
 
-
-bot.run('MTMzMzg0ODIzOTc5NTA4MTI3OA.GJNXgF.mvWwhWI0x6c0OLiumYCL1vr8d3stHjsWomlXNo')
+access_token = os.environ["BOT_TOKEN"]
+bot.run('access_token')
